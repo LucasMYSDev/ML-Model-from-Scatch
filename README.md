@@ -2,7 +2,10 @@
 
 This repository contains a collection of machine learning models implemented from scratch using Python. The models are created without relying on external libraries, showcasing the underlying principles and algorithms involved in each model.
 
-The implementation of these models is inspired by [Assembly AI](https://youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd), a YouTube playlist that provides valuable insights into machine learning algorithms and their implementation.
+The implementation of these models is inspired by [Assembly AI: ML Models from Scratch](https://youtube.com/playlist?list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd), a YouTube playlist that provides valuable insights into machine learning algorithms and their implementation.
+
+This project is also inspired by Patrick Loeber, one of the demonstrators of Assembly AI. You can find more of his content on his [YouTube Channel](https://www.youtube.com/@patloeber).
+
 
 ## Instructions
 
@@ -32,6 +35,14 @@ By using these models, you can gain a solid understanding of the underlying algo
 
 - **Naive Bayes:** Naive Bayes is a probabilistic classifier that applies Bayes' theorem with the assumption of independence between features. It is commonly used for text classification and spam filtering.
 
+- **Random Forest:** Random Forest is an ensemble learning method that combines multiple decision trees to create a more robust and accurate model. It uses a technique called bagging, where each tree is trained on a random subset of the data and features.
+
+   Random Forest is particularly effective in handling high-dimensional datasets and reducing overfitting. It leverages the diversity of individual decision trees to make predictions by aggregating their results.
+
+- **AdaBoost:** AdaBoost, short for Adaptive Boosting, is another ensemble learning method that combines multiple weak classifiers to create a strong classifier. It iteratively adjusts the weights of misclassified samples to focus on the difficult examples.
+
+   AdaBoost assigns higher weights to misclassified samples in each iteration, which allows subsequent weak classifiers to prioritize them. By combining the predictions of multiple weak classifiers, AdaBoost improves overall accuracy.
+
 ### Unsupervised Learning
 
 - **Principal Component Analysis (PCA):** PCA is a dimensionality reduction technique used to identify patterns and reduce the number of features in a dataset while preserving the most important information.
@@ -41,5 +52,6 @@ By using these models, you can gain a solid understanding of the underlying algo
 - **Support Vector Machines (SVM):** SVM is a classification algorithm that finds an optimal hyperplane in a high-dimensional feature space to separate different classes. It can also be used for regression and anomaly detection tasks.
 
 - **Perceptron:** Perceptron is a binary classification algorithm used to classify linearly separable data. It is a single-layer neural network that learns weights for input features to make predictions.
+
 
 
