@@ -55,3 +55,9 @@ By using these models, you can gain a solid understanding of the underlying algo
 
 
 
+### Transformer Architecture
+
+- **Transformer:** Introduced in the paper "Attention is All You Need" by Vaswani et al., the Transformer model has revolutionized natural language processing (NLP). It deviates from previous sequence-based models by utilizing an 'attention' mechanism, which weighs the influence of different parts of the input data. This enables parallel processing and increased efficiency in handling sequences, making Transformers highly effective for tasks like language translation and text summarization.
+
+  My implementation of the Transformer model in this project, guided by its complexities, is inspired by the detailed tutorials from [Code Emporium](https://www.youtube.com/@CodeEmporium/videos) and the code from [ajhalthor/Transformer-Neural-Network](https://github.com/ajhalthor/Transformer-Neural-Network/tree/main) on GitHub. This work demonstrates my passion for state-of-the-art models and a deep understanding of Transformer architecture, especially in its application to NLP tasks.
+
